@@ -17,3 +17,5 @@ end
 function OnPlayerDied()
 
 end
+
+ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/better_tower/files/actions.lua" )

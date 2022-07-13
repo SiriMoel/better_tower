@@ -1,0 +1,23 @@
+<Sprite 
+	filename="mods/better_tower/files/tower_new/wand_decay.png"
+	offset_x="0" 
+	offset_y="0" 
+	>
+	
+  <!-- handgun -->
+  <RectAnimation 
+	name="default" 
+	pos_x="1" 
+	pos_y="0" 
+	offset_x="2" 
+	offset_y="5" 
+	has_offset="1"
+	frame_count="1" 
+	frame_width="24" 
+	frame_height="11" 
+	frame_wait="0.2" 
+	frames_per_row="10" 
+	loop="0"  >
+  </RectAnimation>
+  
+</Sprite>
