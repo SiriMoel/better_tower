@@ -1,0 +1,68 @@
+<Materials>
+
+  <CellDataChild
+  	_parent="templerock_static"
+  	_inherit_reactions="1"
+  	name="towerlock_1_locked" 
+	ui_name="Tower Keyhole"
+	gfx_glow="0"
+	hp="40000"
+	audio_physics_material_wall="gravel"
+	audio_physics_material_solid="rock"
+	wang_color="ff5fb8db">
+  	<Graphics
+	texture_file="data/materials_gfx/tower_lock_empty.png"
+	color="ff5fb8db" >
+    </Graphics>
+  </CellDataChild>
+
+    <CellDataChild
+  	_parent="templerock_static"
+  	_inherit_reactions="1"
+  	name="towerlock_2_locked" 
+	ui_name="Tower Keyhole"
+	gfx_glow="0"
+	hp="40000"
+	audio_physics_material_wall="gravel"
+	audio_physics_material_solid="rock"
+	wang_color="ff74e44e">
+  	<Graphics
+	texture_file="data/materials_gfx/tower_lock_empty.png"
+	color="ff74e44e" >
+    </Graphics>
+  </CellDataChild>
+
+    <CellDataChild
+  	_parent="templerock_static"
+  	_inherit_reactions="1"
+  	name="towerlock_3_locked" 
+	ui_name="Tower Keyhole"
+	gfx_glow="0"
+	hp="40000"
+	audio_physics_material_wall="gravel"
+	audio_physics_material_solid="rock"
+	wang_color="fff5af2f">
+  	<Graphics
+	texture_file="data/materials_gfx/tower_lock_empty.png"
+	color="fff5af2f" >
+    </Graphics>
+  </CellDataChild>
+
+    <CellDataChild
+  	_parent="templerock_static"
+  	_inherit_reactions="1"
+  	name="towerlock_4_locked" 
+	ui_name="Tower Keyhole"
+	gfx_glow="0"
+	hp="40000"
+	audio_physics_material_wall="gravel"
+	audio_physics_material_solid="rock"
+	wang_color="ff8e2ff5">
+  	<Graphics
+	texture_file="data/materials_gfx/tower_lock_empty.png"
+	color="ff8e2ff5" >
+    </Graphics>
+  </CellDataChild>
+
+
+</Materials>

@@ -24,7 +24,7 @@ function spawn_potions( x, y ) end
 function spawn_wands( x, y ) end
 
 function init( x, y, w, h )
-	LoadPixelScene( "data/biome_impl/essenceroom.png", "data/biome_impl/essenceroom_visual.png", x, y, "data/biome_impl/essenceroom_background_with_diamond.png", true )
+	LoadPixelScene( "data/biome_impl/tower_end.png", "data/biome_impl/tower_end_visual.png", x, y, "data/biome_impl/tower_end_background.png", true )
 end
 
 function spawn_orb(x, y)
@@ -39,7 +39,7 @@ function spawn_essence(x, y)
 	EntityLoad( "data/entities/items/wands/wand_good/wand_good_2.xml", x - 45, y + 12 )
 	EntityLoad( "data/entities/items/wands/wand_good/wand_good_3.xml", x + 25, y + 12 )]]--
 
-	EntityLoad( "data/entities/buildings/mystery_teleport_back.xml", x, y - 200 )
+	EntityLoad( "data/entities/buildings/mystery_teleport_back.xml", x, y - 192 )
 	
 	EntityLoad("data/entities/buildings/tower_lock/tower_lock.xml", x, y + 4 )
 end

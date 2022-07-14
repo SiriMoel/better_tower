@@ -1,3 +1,6 @@
+ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/better_tower/files/actions.lua" )
+ModMaterialsFileAdd("mods/better_tower/files/materials.xml")
+
 local nxml = dofile_once("mods/better_tower/lib/nxml.lua")
 
 function OnModInit()
@@ -21,5 +24,3 @@ end
 function OnPlayerDied()
 
 end
-
-ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/better_tower/files/actions.lua" )
