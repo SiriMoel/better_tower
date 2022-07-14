@@ -1,8 +1,8 @@
 dofile_once("data/scripts/lib/utilities.lua")
 
 function collision_trigger(colliding_entity_id)
-    local x, y = EntityGetTransform()
     local lock = GetUpdatedEntityID()
+    local x, y = EntityGetTransform(lock)
 
     if (EntityHasTag(colliding_entity_id, "mortal")) then return end
 
